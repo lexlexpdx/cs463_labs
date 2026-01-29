@@ -1,5 +1,7 @@
 :root {
   --gold: #ffd700;
+  --blue: #4169e1;
+  --orange: #ffa500;
 }
 
 body {
@@ -9,13 +11,14 @@ body {
 .header,
 .section,
 .aside {
-  box-sizing: content-box;
+  box-sizing: border-box;
   padding: 10px;
   border: 4px solid var(--black);
 }
 
 .header {
   background-color: var(--blue);
+  display: block;
 }
 
 .section {

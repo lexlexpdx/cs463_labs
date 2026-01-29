@@ -1,4 +1,11 @@
 .container {
   width: 600px;
   margin: 40px auto;
+  font-family: sans-serif;
 }
+
+.paragraph::first-letter {
+  font-size: 3em;
+}
+
+
